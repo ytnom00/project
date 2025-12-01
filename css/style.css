@@ -1,66 +1,66 @@
-body{
-  padding:0px;
-  margin:0px;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
 }
-.header {
-  width:100vw;
-  height:10%;
-  
-  display:flex;
-  
-  
+.header{
+    width: 100vw;
+    height: 3rem;
+    display: flex;
+    background-color: darkblue;
+    
+
+
 }
 .logo{
-width:25%;
-  height:100%;
-  background-color:black;
-  
-  
+    width: 25%;
+    height:100%;
+   
 }
 .logo a{
-  width:100%;
-  height:100%;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-
-  
+    width: 100%;
+    height:100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
-logo a img{
-width:auto;
-  height:100%;
-  
-  
+.logo a img{
+    height:100%;
+    width:auto;
 }
 .menu{
-width:75%;
-  height:100%;
-   background-color:blue;
-  display:flex;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    
+    
+
+
 }
-.menu .navbar {
-  width:100%;
-  height:100%;
-  display:flex;
-  
+.navBar{
+    flex:1;
+    display: flex;    
+    
 }
-.navbar ul{  
-  width:100%;
-  height:100%;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+.menu .navBar ul{
+
+      display: flex;
+      flex: 1;
+    justify-content: space-around;
+    align-items: center;
    text-decoration: none;
    list-style: none;
    gap: 20px;
-   
-  
-}
+   }
 .navBar ul li{
     width: 100%;
     height: 100%;
     display: flex;
+    
 }
+
 .navBar ul li a{
     text-decoration: none;
     height:100%;
@@ -75,8 +75,6 @@ width:75%;
       
     
 }
-
-
 
 
 
