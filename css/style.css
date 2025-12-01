@@ -1,1 +1,83 @@
+body{
+  padding:0px;
+  margin:0px;
+}
+.header {
+  width:100vw;
+  height:10%;
+  
+  display:flex;
+  
+  
+}
+.logo{
+width:75%;
+  height:100%;
+  background-color:black;
+  
+  
+}
+.logo a{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  
+}
+logo a img{
+width:auto;
+  height:100%;
+  
+  
+}
+.menu{
+width:75%;
+  height:100%
+  background-color:blue;
+}
+.menu .navbar {
+  width:100%;
+  height:100%;
+  
+}
+.navbar ul{  
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+   text-decoration: none;
+   list-style: none;
+   gap: 20px;
+   
+  
+}
+.navBar ul li{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.navBar ul li a{
+    text-decoration: none;
+    height:100%;
+    font-size:1rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white; 
+     
+    
+     
+      
+    
+}
+
+
+
+
+
+
+
 
